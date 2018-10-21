@@ -1,38 +1,45 @@
 body {
-    background-image: url("https://images.pexels.com/photos/908283/pexels-photo-908283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://images.pexels.com/photos/908283/pexels-photo-908283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
-    padding: 7px;
+    padding: 0px;
 }
 
 div {
-    background-color: #161616
+	    background: rgba(22, 22, 22, 0.9);
+	
+
 }
+
+div.heading {
+	    background: rgba(22, 22, 22, 0.9);
+
+}
+
 
 
 h1 {
 
-    color: #000000;
-    font-family: 'Asap', sans-serif;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     text-align: center;
-    background-color: #ffffff
 }
 
 h2 {
 
     color: #d8d8d8;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: center; 
 }
 
-p, table {
+p {
     color: #d8d8d8;
     font-size: 20px;
     line-height: 1.6;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -48,13 +55,49 @@ img.center {
     margin-right: auto; 
 }
 
-@media (max-width: 500px) {
+ul {
+		
+	text-align: center;
+	background: white;
+	font-family:'Montserrat', sans-serif;
+	font-size: 30px;
+	list-style-type: none;
+	padding: 10px;
+	overflow: hidden;
+	
+
+	}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.column {
+	column-count: 3;
+	column-gap: 40px;
+
+		}
+      		
+@media (max-width: 700px) {
     h1{
         color:#000099;
         font-size: 30px;
     }
 
-    p, table {
+    p {
         font-size: 16px;
     }
+	
+	.column {
+	column-count: 1;
+
+		}
 }
