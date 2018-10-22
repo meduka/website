@@ -1,19 +1,24 @@
 body {
     background-image: url("https://images.pexels.com/photos/908283/pexels-photo-908283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-    padding: 0px;
+   
 }
 
 div {
 	    background: rgba(22, 22, 22, 0.9);
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 800px;
 	
 
 }
 
 div.heading {
-	    background: rgba(22, 22, 22, 0.9);
+	    background: rgba(255, 255, 255, 0.8);
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		border: 50px solid #edeeef;
+		max-width: 100%;
 
 }
 
@@ -21,7 +26,7 @@ div.heading {
 
 h1 {
 
-    color: #ffffff;
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     text-align: center;
@@ -29,7 +34,7 @@ h1 {
 
 h2 {
 
-    color: #d8d8d8;
+    color: #282828;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: center; 
@@ -40,6 +45,7 @@ p {
     font-size: 20px;
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
+	padding: 20px;
 }
 
 
@@ -58,11 +64,11 @@ img.center {
 ul {
 		
 	text-align: center;
-	background: white;
+	background: #edeeef;
 	font-family:'Montserrat', sans-serif;
 	font-size: 30px;
 	list-style-type: none;
-	padding: 10px;
+	padding: 20px;
 	overflow: hidden;
 	
 
@@ -91,13 +97,29 @@ li a {
         color:#000099;
         font-size: 30px;
     }
+	
+	h2 {
+		font-size: 20px;
+	}
 
     p {
-        font-size: 16px;
+        font-size: 15px;
     }
 	
 	.column {
 	column-count: 1;
 
 		}
+		
+	li {
+		float: none;
+	}
+	
+	div.heading {
+		border: 25px solid white;
+		max-width: 100%;
+
+	}
+	
+
 }
